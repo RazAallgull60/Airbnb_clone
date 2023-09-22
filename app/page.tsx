@@ -1,9 +1,7 @@
-import { Nunito } from 'next/font/google'
+import { Nunito } from "next/font/google";
 
-const inter = Nunito({ subsets: ['latin'] })
+const inter = Nunito({ subsets: ["latin"] });
 
 export default function Home() {
-  return (
-    <div>Navbar</div>
-  )
+  return <div></div>;
 }
